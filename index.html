@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+</head>
+<body class="bg-gray-400 text-black flex item-center justify-center " style="background-image: url(./img1.jpg); ">
+    <div class="   ">
+        <div class="main  ">
+            <h1 class="text-3xl font-bold text-center pb-3 ">Guess Number</h1>
+            <p class="text-center text-xl font-bold ">Guess a number between 0 and 100</p><br>
+            <div class="input justify-center flex flex-col">
+                <input type="text" id="number" class=" text-center   border-gray-700 border-4"  placeholder="enter a number"><br>
+                <button id="btn" onclick="checkNumber()" class=" bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded  ">Guess</button>
+            </div>
+            
+            
+            <div id="result" class="text-green-900 text-base font-medium bg-blue-100"> </div>
+            
+        </div>
+
+        <p class="font-medium bg-gray-400 mt-4">:::If there are 3 friends , then every one has to guess <br>the number Who guess it right first, They are the winner,<br>as count increase chances increase:::</p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
